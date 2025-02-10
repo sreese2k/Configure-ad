@@ -51,9 +51,9 @@ In this lab, we configured Remote Desktop access on Client-1 for non-administrat
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/sUoSNg6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Lastly in this lab, we explored account lockout policies, enabling/disabling accounts, and observing security logs in Active Directory (AD). First, we logged into DC-1, selected a user account, and attempted 10 failed logins to simulate a brute-force attack. We then configured Group Policy to lock out accounts after 5 failed attempts and verified that after 6 incorrect logins, the account was locked in ADUC. Next, we unlocked the account, reset the password, and successfully logged in. We then disabled the account, attempted to log in (receiving an error), then re-enabled it and confirmed access was restored. Finally, we examined security logs on both DC-1 and Client-1, highlighting how account activity is recorded an essential concept for cybersecurity and security operations. 
 </p>
 <br />
